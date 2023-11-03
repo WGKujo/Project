@@ -1,0 +1,540 @@
+/********************************************************************************
+** Form generated from reading UI file 'form.ui'
+**
+** Created by: Qt User Interface Compiler version 5.12.4
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_FORM_H
+#define UI_FORM_H
+
+#include <ActiveQt/QAxWidget>
+#include <QtCore/QVariant>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
+#include <QtWidgets/QFrame>
+#include <QtWidgets/QGroupBox>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QProgressBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QStackedWidget>
+#include <QtWidgets/QTableWidget>
+#include <QtWidgets/QTextEdit>
+#include <QtWidgets/QWidget>
+#include <qchartview.h>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_Form
+{
+public:
+    QFrame *main_frame;
+    QStackedWidget *stackedWidget;
+    QWidget *Mainpage;
+    QLabel *label;
+    QWidget *LineChartpage;
+    QChartView *graphicsView;
+    QChartView *graphicsView_2;
+    QChartView *graphicsView_3;
+    QChartView *graphicsView_4;
+    QWidget *GPSpage;
+    QAxWidget *axWidget;
+    QWidget *Warningpage;
+    QGroupBox *warnbox;
+    QTextEdit *warntext;
+    QLabel *warn_label;
+    QLabel *warn_label2;
+    QPushButton *warnopen_btn;
+    QPushButton *warnclose_btn;
+    QChartView *warnchart;
+    QGroupBox *thresholdbox;
+    QTextEdit *TDSthreshold;
+    QLabel *TDS_threshold;
+    QTextEdit *PHthreshold;
+    QTextEdit *TEMthreshold;
+    QLabel *TEM_threshold;
+    QLabel *PH_threshold;
+    QTextEdit *TUthreshold;
+    QLabel *TU_threshold;
+    QPushButton *thresholdsetup;
+    QWidget *lorapage;
+    QWidget *movepage;
+    QWidget *video;
+    QLabel *gif;
+    QGroupBox *statebox;
+    QTextEdit *state;
+    QPushButton *clear;
+    QPushButton *go;
+    QPushButton *back;
+    QPushButton *left;
+    QPushButton *right;
+    QPushButton *test;
+    QWidget *analysispage;
+    QWidget *checkpage;
+    QLabel *equipmenttext;
+    QGroupBox *equipmentbox;
+    QTextEdit *equipmentedit;
+    QPushButton *clear_1;
+    QGroupBox *testbox1;
+    QPushButton *tpower;
+    QPushButton *tfloat;
+    QPushButton *tmove;
+    QPushButton *tcharge;
+    QGroupBox *testbox1_2;
+    QPushButton *tTDS;
+    QPushButton *tPH;
+    QPushButton *tTEM;
+    QPushButton *tTU;
+    QProgressBar *power;
+    QLabel *powertext;
+    QLabel *modetext_2;
+    QComboBox *comboBox;
+    QPushButton *select;
+    QPushButton *connect;
+    QWidget *historypage;
+    QTableWidget *historytable;
+    QGroupBox *groupBox;
+    QPushButton *GPS;
+    QPushButton *warning;
+    QPushButton *linechart;
+    QPushButton *Lora;
+    QPushButton *move;
+    QPushButton *analysis;
+    QPushButton *check;
+    QLabel *warning_icon;
+    QPushButton *history;
+    QPushButton *mainexit_btn;
+    QLabel *title;
+    QLabel *icon2;
+    QPushButton *mainmin_btn;
+    QPushButton *mainmenu_btn;
+
+    void setupUi(QWidget *Form)
+    {
+        if (Form->objectName().isEmpty())
+            Form->setObjectName(QString::fromUtf8("Form"));
+        Form->resize(1680, 1000);
+        Form->setMinimumSize(QSize(1680, 1000));
+        Form->setMaximumSize(QSize(1680, 1000));
+        main_frame = new QFrame(Form);
+        main_frame->setObjectName(QString::fromUtf8("main_frame"));
+        main_frame->setGeometry(QRect(0, 50, 1681, 951));
+        main_frame->setFrameShape(QFrame::StyledPanel);
+        main_frame->setFrameShadow(QFrame::Raised);
+        stackedWidget = new QStackedWidget(main_frame);
+        stackedWidget->setObjectName(QString::fromUtf8("stackedWidget"));
+        stackedWidget->setGeometry(QRect(199, -1, 1481, 951));
+        QFont font;
+        font.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font.setPointSize(12);
+        stackedWidget->setFont(font);
+        Mainpage = new QWidget();
+        Mainpage->setObjectName(QString::fromUtf8("Mainpage"));
+        label = new QLabel(Mainpage);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(270, 260, 1091, 491));
+        QFont font1;
+        font1.setPointSize(80);
+        label->setFont(font1);
+        stackedWidget->addWidget(Mainpage);
+        LineChartpage = new QWidget();
+        LineChartpage->setObjectName(QString::fromUtf8("LineChartpage"));
+        graphicsView = new QChartView(LineChartpage);
+        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
+        graphicsView->setGeometry(QRect(0, 0, 721, 481));
+        graphicsView_2 = new QChartView(LineChartpage);
+        graphicsView_2->setObjectName(QString::fromUtf8("graphicsView_2"));
+        graphicsView_2->setGeometry(QRect(720, 0, 761, 481));
+        graphicsView_3 = new QChartView(LineChartpage);
+        graphicsView_3->setObjectName(QString::fromUtf8("graphicsView_3"));
+        graphicsView_3->setGeometry(QRect(0, 479, 720, 471));
+        graphicsView_4 = new QChartView(LineChartpage);
+        graphicsView_4->setObjectName(QString::fromUtf8("graphicsView_4"));
+        graphicsView_4->setGeometry(QRect(720, 480, 761, 471));
+        stackedWidget->addWidget(LineChartpage);
+        GPSpage = new QWidget();
+        GPSpage->setObjectName(QString::fromUtf8("GPSpage"));
+        axWidget = new QAxWidget(GPSpage);
+        axWidget->setObjectName(QString::fromUtf8("axWidget"));
+        axWidget->setProperty("geometry", QVariant(QRect(-10, 0, 1491, 951)));
+        stackedWidget->addWidget(GPSpage);
+        Warningpage = new QWidget();
+        Warningpage->setObjectName(QString::fromUtf8("Warningpage"));
+        warnbox = new QGroupBox(Warningpage);
+        warnbox->setObjectName(QString::fromUtf8("warnbox"));
+        warnbox->setGeometry(QRect(0, 10, 741, 541));
+        QFont font2;
+        font2.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font2.setPointSize(22);
+        warnbox->setFont(font2);
+        warnbox->setAlignment(Qt::AlignCenter);
+        warntext = new QTextEdit(warnbox);
+        warntext->setObjectName(QString::fromUtf8("warntext"));
+        warntext->setGeometry(QRect(10, 50, 721, 481));
+        warn_label = new QLabel(Warningpage);
+        warn_label->setObjectName(QString::fromUtf8("warn_label"));
+        warn_label->setGeometry(QRect(870, 80, 231, 61));
+        QFont font3;
+        font3.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font3.setPointSize(35);
+        warn_label->setFont(font3);
+        warn_label2 = new QLabel(Warningpage);
+        warn_label2->setObjectName(QString::fromUtf8("warn_label2"));
+        warn_label2->setGeometry(QRect(1170, 80, 191, 61));
+        warn_label2->setFont(font3);
+        warnopen_btn = new QPushButton(Warningpage);
+        warnopen_btn->setObjectName(QString::fromUtf8("warnopen_btn"));
+        warnopen_btn->setGeometry(QRect(880, 190, 201, 81));
+        QFont font4;
+        font4.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font4.setPointSize(20);
+        warnopen_btn->setFont(font4);
+        warnclose_btn = new QPushButton(Warningpage);
+        warnclose_btn->setObjectName(QString::fromUtf8("warnclose_btn"));
+        warnclose_btn->setGeometry(QRect(1160, 190, 201, 81));
+        warnclose_btn->setFont(font4);
+        warnchart = new QChartView(Warningpage);
+        warnchart->setObjectName(QString::fromUtf8("warnchart"));
+        warnchart->setGeometry(QRect(750, 290, 721, 651));
+        QFont font5;
+        font5.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font5.setPointSize(15);
+        warnchart->setFont(font5);
+        thresholdbox = new QGroupBox(Warningpage);
+        thresholdbox->setObjectName(QString::fromUtf8("thresholdbox"));
+        thresholdbox->setGeometry(QRect(0, 550, 741, 391));
+        TDSthreshold = new QTextEdit(thresholdbox);
+        TDSthreshold->setObjectName(QString::fromUtf8("TDSthreshold"));
+        TDSthreshold->setGeometry(QRect(140, 90, 201, 41));
+        QFont font6;
+        font6.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font6.setPointSize(18);
+        TDSthreshold->setFont(font6);
+        TDS_threshold = new QLabel(thresholdbox);
+        TDS_threshold->setObjectName(QString::fromUtf8("TDS_threshold"));
+        TDS_threshold->setGeometry(QRect(80, 90, 81, 41));
+        TDS_threshold->setFont(font4);
+        PHthreshold = new QTextEdit(thresholdbox);
+        PHthreshold->setObjectName(QString::fromUtf8("PHthreshold"));
+        PHthreshold->setGeometry(QRect(480, 90, 201, 41));
+        PHthreshold->setFont(font6);
+        TEMthreshold = new QTextEdit(thresholdbox);
+        TEMthreshold->setObjectName(QString::fromUtf8("TEMthreshold"));
+        TEMthreshold->setGeometry(QRect(140, 200, 201, 41));
+        TEMthreshold->setFont(font6);
+        TEM_threshold = new QLabel(thresholdbox);
+        TEM_threshold->setObjectName(QString::fromUtf8("TEM_threshold"));
+        TEM_threshold->setGeometry(QRect(80, 200, 81, 41));
+        TEM_threshold->setFont(font4);
+        PH_threshold = new QLabel(thresholdbox);
+        PH_threshold->setObjectName(QString::fromUtf8("PH_threshold"));
+        PH_threshold->setGeometry(QRect(440, 90, 81, 41));
+        PH_threshold->setFont(font4);
+        TUthreshold = new QTextEdit(thresholdbox);
+        TUthreshold->setObjectName(QString::fromUtf8("TUthreshold"));
+        TUthreshold->setGeometry(QRect(480, 200, 201, 41));
+        TUthreshold->setFont(font6);
+        TU_threshold = new QLabel(thresholdbox);
+        TU_threshold->setObjectName(QString::fromUtf8("TU_threshold"));
+        TU_threshold->setGeometry(QRect(440, 200, 81, 41));
+        TU_threshold->setFont(font4);
+        thresholdsetup = new QPushButton(thresholdbox);
+        thresholdsetup->setObjectName(QString::fromUtf8("thresholdsetup"));
+        thresholdsetup->setGeometry(QRect(10, 280, 711, 101));
+        thresholdsetup->setFont(font3);
+        stackedWidget->addWidget(Warningpage);
+        lorapage = new QWidget();
+        lorapage->setObjectName(QString::fromUtf8("lorapage"));
+        stackedWidget->addWidget(lorapage);
+        movepage = new QWidget();
+        movepage->setObjectName(QString::fromUtf8("movepage"));
+        video = new QWidget(movepage);
+        video->setObjectName(QString::fromUtf8("video"));
+        video->setGeometry(QRect(290, 0, 1191, 951));
+        gif = new QLabel(video);
+        gif->setObjectName(QString::fromUtf8("gif"));
+        gif->setGeometry(QRect(550, 425, 100, 100));
+        statebox = new QGroupBox(movepage);
+        statebox->setObjectName(QString::fromUtf8("statebox"));
+        statebox->setGeometry(QRect(10, 40, 261, 511));
+        statebox->setFont(font4);
+        statebox->setAlignment(Qt::AlignCenter);
+        state = new QTextEdit(statebox);
+        state->setObjectName(QString::fromUtf8("state"));
+        state->setGeometry(QRect(10, 50, 241, 451));
+        clear = new QPushButton(statebox);
+        clear->setObjectName(QString::fromUtf8("clear"));
+        clear->setGeometry(QRect(10, 450, 241, 51));
+        go = new QPushButton(movepage);
+        go->setObjectName(QString::fromUtf8("go"));
+        go->setGeometry(QRect(20, 580, 111, 111));
+        go->setFont(font4);
+        back = new QPushButton(movepage);
+        back->setObjectName(QString::fromUtf8("back"));
+        back->setGeometry(QRect(150, 580, 111, 111));
+        back->setFont(font4);
+        left = new QPushButton(movepage);
+        left->setObjectName(QString::fromUtf8("left"));
+        left->setGeometry(QRect(20, 710, 111, 111));
+        left->setFont(font4);
+        right = new QPushButton(movepage);
+        right->setObjectName(QString::fromUtf8("right"));
+        right->setGeometry(QRect(150, 710, 111, 111));
+        right->setFont(font4);
+        test = new QPushButton(movepage);
+        test->setObjectName(QString::fromUtf8("test"));
+        test->setGeometry(QRect(20, 840, 241, 71));
+        QFont font7;
+        font7.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font7.setPointSize(25);
+        test->setFont(font7);
+        stackedWidget->addWidget(movepage);
+        analysispage = new QWidget();
+        analysispage->setObjectName(QString::fromUtf8("analysispage"));
+        stackedWidget->addWidget(analysispage);
+        checkpage = new QWidget();
+        checkpage->setObjectName(QString::fromUtf8("checkpage"));
+        equipmenttext = new QLabel(checkpage);
+        equipmenttext->setObjectName(QString::fromUtf8("equipmenttext"));
+        equipmenttext->setGeometry(QRect(40, 170, 961, 221));
+        QFont font8;
+        font8.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font8.setPointSize(90);
+        equipmenttext->setFont(font8);
+        equipmenttext->setAlignment(Qt::AlignCenter);
+        equipmentbox = new QGroupBox(checkpage);
+        equipmentbox->setObjectName(QString::fromUtf8("equipmentbox"));
+        equipmentbox->setGeometry(QRect(1040, 20, 391, 901));
+        equipmentbox->setFont(font7);
+        equipmentbox->setAlignment(Qt::AlignCenter);
+        equipmentedit = new QTextEdit(equipmentbox);
+        equipmentedit->setObjectName(QString::fromUtf8("equipmentedit"));
+        equipmentedit->setGeometry(QRect(10, 50, 371, 841));
+        equipmentedit->setFont(font5);
+        clear_1 = new QPushButton(equipmentbox);
+        clear_1->setObjectName(QString::fromUtf8("clear_1"));
+        clear_1->setGeometry(QRect(10, 840, 371, 51));
+        QFont font9;
+        font9.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font9.setPointSize(30);
+        clear_1->setFont(font9);
+        testbox1 = new QGroupBox(checkpage);
+        testbox1->setObjectName(QString::fromUtf8("testbox1"));
+        testbox1->setGeometry(QRect(550, 550, 210, 370));
+        testbox1->setFont(font5);
+        testbox1->setAlignment(Qt::AlignCenter);
+        tpower = new QPushButton(testbox1);
+        tpower->setObjectName(QString::fromUtf8("tpower"));
+        tpower->setGeometry(QRect(20, 40, 171, 71));
+        tpower->setFont(font5);
+        tfloat = new QPushButton(testbox1);
+        tfloat->setObjectName(QString::fromUtf8("tfloat"));
+        tfloat->setGeometry(QRect(20, 280, 171, 71));
+        tfloat->setFont(font5);
+        tmove = new QPushButton(testbox1);
+        tmove->setObjectName(QString::fromUtf8("tmove"));
+        tmove->setGeometry(QRect(20, 200, 171, 71));
+        tmove->setFont(font5);
+        tcharge = new QPushButton(testbox1);
+        tcharge->setObjectName(QString::fromUtf8("tcharge"));
+        tcharge->setGeometry(QRect(20, 120, 171, 71));
+        tcharge->setFont(font5);
+        testbox1_2 = new QGroupBox(checkpage);
+        testbox1_2->setObjectName(QString::fromUtf8("testbox1_2"));
+        testbox1_2->setGeometry(QRect(800, 550, 210, 370));
+        testbox1_2->setFont(font5);
+        testbox1_2->setAlignment(Qt::AlignCenter);
+        tTDS = new QPushButton(testbox1_2);
+        tTDS->setObjectName(QString::fromUtf8("tTDS"));
+        tTDS->setGeometry(QRect(20, 40, 171, 71));
+        tTDS->setFont(font5);
+        tPH = new QPushButton(testbox1_2);
+        tPH->setObjectName(QString::fromUtf8("tPH"));
+        tPH->setGeometry(QRect(20, 120, 171, 71));
+        tPH->setFont(font5);
+        tTEM = new QPushButton(testbox1_2);
+        tTEM->setObjectName(QString::fromUtf8("tTEM"));
+        tTEM->setGeometry(QRect(20, 200, 171, 71));
+        tTEM->setFont(font5);
+        tTU = new QPushButton(testbox1_2);
+        tTU->setObjectName(QString::fromUtf8("tTU"));
+        tTU->setGeometry(QRect(20, 280, 171, 71));
+        tTU->setFont(font5);
+        power = new QProgressBar(checkpage);
+        power->setObjectName(QString::fromUtf8("power"));
+        power->setGeometry(QRect(80, 720, 361, 181));
+        QFont font10;
+        font10.setFamily(QString::fromUtf8("Consolas"));
+        font10.setPointSize(50);
+        font10.setBold(true);
+        font10.setWeight(75);
+        power->setFont(font10);
+        power->setValue(24);
+        power->setAlignment(Qt::AlignCenter);
+        powertext = new QLabel(checkpage);
+        powertext->setObjectName(QString::fromUtf8("powertext"));
+        powertext->setGeometry(QRect(200, 620, 171, 71));
+        powertext->setFont(font7);
+        modetext_2 = new QLabel(checkpage);
+        modetext_2->setObjectName(QString::fromUtf8("modetext_2"));
+        modetext_2->setGeometry(QRect(0, 0, 281, 101));
+        QFont font11;
+        font11.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font11.setPointSize(40);
+        modetext_2->setFont(font11);
+        comboBox = new QComboBox(checkpage);
+        comboBox->setObjectName(QString::fromUtf8("comboBox"));
+        comboBox->setGeometry(QRect(290, 10, 291, 81));
+        comboBox->setFont(font9);
+        select = new QPushButton(checkpage);
+        select->setObjectName(QString::fromUtf8("select"));
+        select->setGeometry(QRect(600, 10, 201, 81));
+        select->setFont(font9);
+        connect = new QPushButton(checkpage);
+        connect->setObjectName(QString::fromUtf8("connect"));
+        connect->setGeometry(QRect(820, 10, 201, 81));
+        connect->setFont(font9);
+        stackedWidget->addWidget(checkpage);
+        historypage = new QWidget();
+        historypage->setObjectName(QString::fromUtf8("historypage"));
+        historytable = new QTableWidget(historypage);
+        historytable->setObjectName(QString::fromUtf8("historytable"));
+        historytable->setGeometry(QRect(-10, 0, 1481, 951));
+        historytable->setFont(font9);
+        stackedWidget->addWidget(historypage);
+        groupBox = new QGroupBox(main_frame);
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        groupBox->setGeometry(QRect(-30, 30, 211, 921));
+        groupBox->setFont(font4);
+        groupBox->setAlignment(Qt::AlignCenter);
+        GPS = new QPushButton(groupBox);
+        GPS->setObjectName(QString::fromUtf8("GPS"));
+        GPS->setGeometry(QRect(40, 270, 161, 41));
+        GPS->setFont(font5);
+        warning = new QPushButton(groupBox);
+        warning->setObjectName(QString::fromUtf8("warning"));
+        warning->setGeometry(QRect(40, 60, 161, 41));
+        warning->setFont(font5);
+        linechart = new QPushButton(groupBox);
+        linechart->setObjectName(QString::fromUtf8("linechart"));
+        linechart->setGeometry(QRect(40, 130, 161, 41));
+        linechart->setFont(font5);
+        Lora = new QPushButton(groupBox);
+        Lora->setObjectName(QString::fromUtf8("Lora"));
+        Lora->setGeometry(QRect(40, 480, 161, 41));
+        Lora->setFont(font5);
+        move = new QPushButton(groupBox);
+        move->setObjectName(QString::fromUtf8("move"));
+        move->setGeometry(QRect(40, 410, 161, 41));
+        move->setFont(font5);
+        analysis = new QPushButton(groupBox);
+        analysis->setObjectName(QString::fromUtf8("analysis"));
+        analysis->setGeometry(QRect(40, 550, 161, 41));
+        analysis->setFont(font5);
+        check = new QPushButton(groupBox);
+        check->setObjectName(QString::fromUtf8("check"));
+        check->setGeometry(QRect(40, 340, 161, 41));
+        check->setFont(font5);
+        warning_icon = new QLabel(groupBox);
+        warning_icon->setObjectName(QString::fromUtf8("warning_icon"));
+        warning_icon->setGeometry(QRect(20, 50, 51, 51));
+        history = new QPushButton(groupBox);
+        history->setObjectName(QString::fromUtf8("history"));
+        history->setGeometry(QRect(40, 200, 161, 41));
+        history->setFont(font5);
+        mainexit_btn = new QPushButton(Form);
+        mainexit_btn->setObjectName(QString::fromUtf8("mainexit_btn"));
+        mainexit_btn->setGeometry(QRect(1630, 0, 50, 50));
+        mainexit_btn->setFont(font4);
+        title = new QLabel(Form);
+        title->setObjectName(QString::fromUtf8("title"));
+        title->setGeometry(QRect(110, 10, 331, 31));
+        title->setFont(font5);
+        icon2 = new QLabel(Form);
+        icon2->setObjectName(QString::fromUtf8("icon2"));
+        icon2->setGeometry(QRect(30, 0, 50, 50));
+        mainmin_btn = new QPushButton(Form);
+        mainmin_btn->setObjectName(QString::fromUtf8("mainmin_btn"));
+        mainmin_btn->setGeometry(QRect(1580, 0, 50, 50));
+        mainmin_btn->setFont(font5);
+        mainmenu_btn = new QPushButton(Form);
+        mainmenu_btn->setObjectName(QString::fromUtf8("mainmenu_btn"));
+        mainmenu_btn->setGeometry(QRect(1530, 0, 50, 50));
+        mainmenu_btn->setFont(font6);
+
+        retranslateUi(Form);
+
+        stackedWidget->setCurrentIndex(3);
+
+
+        QMetaObject::connectSlotsByName(Form);
+    } // setupUi
+
+    void retranslateUi(QWidget *Form)
+    {
+        Form->setWindowTitle(QApplication::translate("Form", "Form", nullptr));
+        label->setText(QApplication::translate("Form", "\346\254\242\350\277\216\344\275\277\347\224\250\346\260\264\350\264\250\346\243\200\346\265\213\347\263\273\347\273\237", nullptr));
+        warnbox->setTitle(QApplication::translate("Form", "\346\212\245\350\255\246\345\256\236\346\227\266\346\225\260\346\215\256", nullptr));
+        warn_label->setText(QApplication::translate("Form", "\345\275\223\345\211\215\347\212\266\346\200\201:", nullptr));
+        warn_label2->setText(QApplication::translate("Form", "\346\234\252\346\212\245\350\255\246", nullptr));
+        warnopen_btn->setText(QApplication::translate("Form", "\346\211\213\345\212\250\346\212\245\350\255\246", nullptr));
+        warnclose_btn->setText(QApplication::translate("Form", "\345\205\263\351\227\255\346\212\245\350\255\246", nullptr));
+        thresholdbox->setTitle(QApplication::translate("Form", "\346\212\245\350\255\246\351\230\210\345\200\274\350\256\276\347\275\256", nullptr));
+        TDS_threshold->setText(QApplication::translate("Form", "TDS", nullptr));
+        TEM_threshold->setText(QApplication::translate("Form", "TEM", nullptr));
+        PH_threshold->setText(QApplication::translate("Form", "PH", nullptr));
+        TU_threshold->setText(QApplication::translate("Form", "TU", nullptr));
+        thresholdsetup->setText(QApplication::translate("Form", "\345\272\224\347\224\250\350\256\276\347\275\256", nullptr));
+        gif->setText(QString());
+        statebox->setTitle(QApplication::translate("Form", "\346\234\272\345\231\250\347\212\266\346\200\201", nullptr));
+        clear->setText(QApplication::translate("Form", "\346\270\205\351\231\244\346\225\260\346\215\256", nullptr));
+        go->setText(QApplication::translate("Form", "\345\211\215\350\277\233", nullptr));
+        back->setText(QApplication::translate("Form", "\345\220\216\351\200\200", nullptr));
+        left->setText(QApplication::translate("Form", "\345\267\246\350\275\254", nullptr));
+        right->setText(QApplication::translate("Form", "\345\217\263\350\275\254", nullptr));
+        test->setText(QApplication::translate("Form", "\350\277\236\346\216\245", nullptr));
+        equipmenttext->setText(QApplication::translate("Form", "\346\234\252\350\277\236\346\216\245", nullptr));
+        equipmentbox->setTitle(QApplication::translate("Form", "\347\212\266\346\200\201\346\227\245\345\277\227", nullptr));
+        clear_1->setText(QApplication::translate("Form", "\346\270\205   \351\231\244", nullptr));
+        testbox1->setTitle(QApplication::translate("Form", "\345\237\272\346\234\254\346\265\213\350\257\225", nullptr));
+        tpower->setText(QApplication::translate("Form", "\350\216\267\345\217\226\345\275\223\345\211\215\347\224\265\351\207\217", nullptr));
+        tfloat->setText(QApplication::translate("Form", "\346\265\213\350\257\225\346\274\202\346\265\256\345\212\237\350\203\275", nullptr));
+        tmove->setText(QApplication::translate("Form", "\346\265\213\350\257\225\350\277\220\345\212\250\345\212\237\350\203\275", nullptr));
+        tcharge->setText(QApplication::translate("Form", "\346\265\213\350\257\225\345\244\252\351\230\263\350\203\275\345\205\205\347\224\265", nullptr));
+        testbox1_2->setTitle(QApplication::translate("Form", "\344\274\240\346\204\237\345\231\250\346\265\213\350\257\225", nullptr));
+        tTDS->setText(QApplication::translate("Form", "\346\265\213\350\257\225TDS\344\274\240\346\204\237\345\231\250", nullptr));
+        tPH->setText(QApplication::translate("Form", "\346\265\213\350\257\225PH\344\274\240\346\204\237\345\231\250", nullptr));
+        tTEM->setText(QApplication::translate("Form", "\346\265\213\350\257\225TEM\344\274\240\346\204\237\345\231\250", nullptr));
+        tTU->setText(QApplication::translate("Form", "\346\265\213\350\257\225TU\344\274\240\346\204\237\345\231\250", nullptr));
+        powertext->setText(QApplication::translate("Form", "\350\256\276\345\244\207\347\224\265\351\207\217", nullptr));
+        modetext_2->setText(QApplication::translate("Form", "\345\275\223\345\211\215\346\250\241\345\274\217", nullptr));
+        select->setText(QApplication::translate("Form", "\351\200\211 \346\213\251", nullptr));
+        connect->setText(QApplication::translate("Form", "\350\277\236 \346\216\245", nullptr));
+        groupBox->setTitle(QApplication::translate("Form", "\345\212\237\350\203\275\345\210\227\350\241\250", nullptr));
+        GPS->setText(QApplication::translate("Form", "\346\237\245\347\234\213\345\256\232\344\275\215", nullptr));
+        warning->setText(QApplication::translate("Form", "\346\212\245\350\255\246\346\217\220\347\244\272", nullptr));
+        linechart->setText(QApplication::translate("Form", "\346\260\264\350\264\250\346\225\260\346\215\256", nullptr));
+        Lora->setText(QApplication::translate("Form", "Lora\350\277\236\346\216\245", nullptr));
+        move->setText(QApplication::translate("Form", "\347\247\273\345\212\250\346\216\247\345\210\266", nullptr));
+        analysis->setText(QApplication::translate("Form", "\346\225\260\346\215\256\345\210\206\346\236\220", nullptr));
+        check->setText(QApplication::translate("Form", "\347\212\266\346\200\201\346\243\200\346\265\213", nullptr));
+        warning_icon->setText(QString());
+        history->setText(QApplication::translate("Form", "\345\216\206\345\217\262\346\225\260\346\215\256", nullptr));
+        mainexit_btn->setText(QApplication::translate("Form", "\303\227", nullptr));
+        title->setText(QApplication::translate("Form", "Spresense\346\260\264\350\264\250\346\243\200\346\265\213\346\212\245\350\255\246\347\263\273\347\273\237", nullptr));
+        icon2->setText(QString());
+        mainmin_btn->setText(QApplication::translate("Form", "\342\200\224", nullptr));
+        mainmenu_btn->setText(QApplication::translate("Form", "\342\211\241", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class Form: public Ui_Form {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_FORM_H

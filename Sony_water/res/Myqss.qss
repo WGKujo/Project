@@ -1,0 +1,330 @@
+#loginframe{
+    background-color: #b2cdef;
+    border-radius: 10px;
+}
+#Widget{
+    background-color: #b2cdef;
+    border-radius: 10px;
+}
+
+#img1{
+    /* border-image:url(.E:/Qt/ArmTraining/user_name.png); */
+    border-image:url(E:/Qt/Sony_water/res/1.png);
+}
+
+#img2{
+    /* border-image:url(.E:/Qt/ArmTraining/user_name.png); */
+    border-image:url(E:/Qt/Sony_water/res/2.png);
+}
+
+#logintitle{
+    color:#000000
+}
+
+#loginexit_btn{
+    background-color: #b2cdef;
+    border-radius: 2px;
+}
+
+#login_btn{
+    background-color: #9dc5eb;
+    border-radius: 5px;
+}
+
+#login_btn:hover{
+    background-color: #6cb5fa;
+}
+
+#loginexit_btn:hover{
+    background-color: #9dc5eb;
+}
+
+#Password,#Account{
+    background-color: #9abef1;
+    color:#343739;
+    border-style:inset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #000000;
+}
+
+#main_frame{
+    background-color: #a0bee9;
+    /* background-color :#3c596d; */
+}
+
+#Form{
+    background-color: #a0c3f4;
+    /* background-color :#547d99; */
+
+}
+
+#groupBox{
+    background-color: hsla(207, 96%, 68%, 0.356); 
+    /*background-color: hsla(219, 66%, 53%, 0.356); */
+}
+
+
+
+#GPS,#warning,#linechart,#Lora,#mainexit_btn,#move,#analysis,#mainmin_btn,#mainmenu_btn,#check,#history,#set,#set_diy{
+    /* background-color: #557eb8; */
+    /* background-color:rgba(0,0,0,0); */
+    background-color: #7b93b3;
+    border-radius: 3px;
+    
+}
+#GPS:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+#mainmin_btn:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#mainmenu_btn:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#warning:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#linechart:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#Lora:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#mainexit_btn:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#move:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+#analysis:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+#check:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+#history:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#set:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+#set_diy:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#go,#back,#left,#right,#clear,#test,#warnopen_btn,#warnclose_btn,#thresholdsetup{
+    background-color: #7da2ce;
+    border-radius: 5px;
+    /* background-color: #3065af; */
+}
+
+#go:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#back:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#left:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#right:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#clear:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#test:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#warnopen_btn:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#warnclose_btn:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#thresholdsetup:hover{
+    background-color: #9fb6d9;
+    border-radius: 5px;
+}
+
+#video{
+    background-color: #94c2d1;
+}
+
+#state{
+    background-color: #698bb8;
+    border-radius: 10px;
+}
+
+#warntext{
+    /* background-color: #b1c4e6; */
+    border-radius: 10px;
+    background-color: #698bb8;
+}
+
+#warnchart{
+    background-color: #698bb8;
+}
+
+#tpower,#tfloat,#tcharge,#tTDS,#tPH,#tTEM,#tTU,#clear_1,#openport,#select,#connect{
+    background-color: #b3d1fc;
+    border-radius: 5px;
+}
+
+#tmove{
+    background-color: #535658;
+    border-radius: 5px;
+}
+
+#tfloat{
+    background-color: #535658;
+    border-radius: 5px;
+}
+
+#tpower:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tfloat:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tmove:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tcharge:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tTDS:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tTDS:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tPH:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tTEM:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#tTU:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#clear_1:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#openport:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#select:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px;
+}
+
+#connect:hover{
+    background-color: #d6e5fa;
+    border-radius: 5px; 
+}
+
+#power{
+    background-color: #7a95be;
+    border-radius: 10px;
+}
+
+#equipmentedit{
+    background-color: #b1c4e6;
+    border-radius: 10px;
+}
+
+#portbox{
+    background-color: #b2cdef;
+}
+
+#baudbox{
+    background-color: #b2cdef;
+}
+
+#historytable{
+    background-color:rgba(0,0,0,0);
+    border: none;
+    selection-background-color:#d7443d
+}
+
+#TDSthreshold,#PHthreshold,#TEMthreshold,#TUthreshold,#TDSset,#TEMset,#TUset,#PHset{
+    background-color: #9abef1;
+    color:#343739;
+    border-style:inset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #000000;
+}
+
+#comboBox{
+    background-color: #9ebeee;
+    border-radius: 5px ;
+    border:2px solid #8bafe0;
+}
+
+#env_set{
+    background-color: #9ebeee;
+    border-radius: 5px ;
+    border:2px solid #8bafe0;
+}
+
